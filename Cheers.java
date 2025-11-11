@@ -25,7 +25,7 @@ public class Cheers {
             System.out.println("What does that spell?");
             // Print the name with exclamation marks cheerCount times
             for (int k = 0; k < cheerCount; k++) {
-                System.out.println(name + " !!!"); 
+                System.out.println(name + "!!!"); 
                 }
         }
 }
