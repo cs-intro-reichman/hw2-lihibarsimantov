@@ -14,7 +14,7 @@ public class Cheers {
             int cheerCount = Integer.parseInt(args[1]); // number of times to cheer each letter
             for (int i = 0; i < name.length(); i++) {
                 char currentChar = name.charAt(i);
-                String anOrA = "a "; // default is "a"
+                String anOrA = "a  "; // default is "a"
                 for (int j=0; j<anLetters.length(); j++){
                     if (name.charAt(i) == anLetters.charAt(j)) {
                             anOrA = "an ";// change to "an" if the letter is in anLetters
